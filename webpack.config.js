@@ -42,6 +42,9 @@ module.exports = {
         new CopyPlugin([
             { from: './src/server.js', to: './server.js' },
             { from: './src/posts', to: './posts' },
+            { from: './src/draft', to: './draft' },
+            { from: './src/error', to: './error' },
+            { from: './src/posts', to: './posts' }
         ]),
     ]
 };
